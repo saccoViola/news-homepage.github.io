@@ -186,7 +186,7 @@ hr{
 
 .first-article-img{
     display: grid;
-    background-image: url(/assets/images/image-retro-pcs.jpg);
+    background-image: url(assets/images/image-retro-pcs.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 12rem;
@@ -213,7 +213,7 @@ h4{
 }
 .second-article-img{
     display: grid;
-    background-image: url(/assets/images/image-top-laptops.jpg);
+    background-image: url(assets/images/image-top-laptops.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 12rem;
@@ -239,7 +239,7 @@ h4{
 
 .third-article-img{
     display: grid;
-    background-image: url(/assets/images/image-gaming-growth.jpg);
+    background-image: url(assets/images/image-gaming-growth.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 12rem;
