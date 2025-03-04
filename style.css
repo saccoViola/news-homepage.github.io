@@ -10,6 +10,11 @@ html{
 body{
     background-color: hsl(36, 100%, 99%);
 }
+
+img{
+    max-width: 100%;
+    width: 100%;
+}
 .container{
     font-size: 1.5rem;
     width: 144rem;
@@ -25,10 +30,10 @@ body{
     justify-content: space-between;
 }
 .logo{
-    width: 10rem;
-    height: 10rem;
-    background-image: url(/assets/images/logo.svg);
-    background-repeat: no-repeat;
+    width: 6rem;
+    height: 4rem;
+    /* background-image: url(/assets/images/logo.svg);
+    background-repeat: no-repeat; */
 }
 nav{
     display: flex;
@@ -74,9 +79,9 @@ nav{
     
 }
 .image1{
-    background-image: url(/assets/images/image-web-3-desktop.jpg);
+    /* background-image: url(/assets/images/image-web-3-desktop.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; */
     grid-column: 1/10;
     grid-row: 1/4;
     margin-top: 0;
@@ -181,9 +186,9 @@ hr{
 
 .first-article-img{
     display: grid;
-    background-image: url(/assets/images/image-retro-pcs.jpg);
+    /* background-image: url(/assets/images/image-retro-pcs.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     width: 12rem;
     height: 15rem;
     grid-column: 1/2;
@@ -208,9 +213,9 @@ h4{
 }
 .second-article-img{
     display: grid;
-    background-image: url(/assets/images/image-top-laptops.jpg);
+    /* background-image: url(/assets/images/image-top-laptops.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     width: 12rem;
     height: 15rem;
     grid-column: 5/6;
@@ -234,9 +239,9 @@ h4{
 
 .third-article-img{
     display: grid;
-    background-image: url(/assets/images/image-gaming-growth.jpg);
+    /* background-image: url(/assets/images/image-gaming-growth.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     width: 12rem;
     height: 15rem;
     grid-column: 9/10;
