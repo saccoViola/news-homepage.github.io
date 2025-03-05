@@ -139,7 +139,7 @@ button:hover{
 .news-container h2{
     color:hsl(35, 77%, 62%);
     font-size: 4rem;
-    margin-bottom: 1rem;
+    margin-bottom: -4rem;
     
 }
 .news-container h3{
@@ -161,19 +161,23 @@ button:hover{
     color:hsl(233, 8%, 79%);
     line-height: 3rem;
     font-size:1.5rem;
-    border-bottom: solid 1px grey;
+    
     
 }
 
-.news-container p:last-child{
+.side-sections:last-child{
     border: none;
 }
 
-hr{
-    height: 0.1rem;
-    color: hsl(36, 100%, 99%);
-    border-top: 1px solid #ccc;
+
+
+.side-sections{
+    border-bottom: solid 1px grey;
+    margin-top: 4rem;
 }
+
+
+
 .articles{
     margin-top:8rem;
     display: grid;
@@ -267,13 +271,4 @@ h5:hover{
     line-height: 2.5rem;
     width: 23rem;
     color:hsl(236, 13%, 42%);
-}
-
-
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
 }

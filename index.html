@@ -26,14 +26,14 @@
       </aside> -->
       <nav >
         <ul class="top-menu"> <!--active-->
-          <li class="home">Home</li>
-          <li class="new">New</li>
-          <li class="popular">Popular</li>
-          <li class="trending">Trending</li>
-          <li class="categories">Categories</li>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
         </ul>
       </nav>
-      <aside class="hamburger-menu">
+      <aside class="hamburger-menu" alt="hamburger menu image">
 
       </aside>
     </header>
@@ -42,9 +42,9 @@
       <article class="main-content">
         <picture class="image1">
           <source media="(min-width: 768px)" srcset="assets/images/image-web-3-desktop.jpg">
-          <img src="assets/images/image-web-3-mobile.jpg" alt="">
+          <img src="assets/images/image-web-3-mobile.jpg" alt="main-decoration-image">
         </picture>
-        <img src="" alt="">
+    
         <!-- <aside class="image1">
 
         </aside> -->
@@ -57,21 +57,24 @@
       </article>
       <article class="news-container">
         <h2>New </h2>
-
-        <h3>Hydrogen VS Electric Cars</h3>
-        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-        
-        <h3>The Downsides of AI Artistry</h3>
-        <p>What are the possible adverse effects of on-demand AI image generation?</p>
-        
-        <h3>Is VC Funding Drying Up?</h3>
-        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        <div class="side-sections">
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="side-sections">
+          <h3>The Downsides of AI Artistry</h3>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <div class="side-sections">
+          <h3>Is VC Funding Drying Up?</h3>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
       </article>
     </section>
     <!--last sections, articles-->
     <section class="articles">
       <!-- <img class="first-article-img" src="assets/images/image-retro-pcs.jpg" alt="retro PCs image"> -->
-      <aside class="first-article-img">
+      <aside class="first-article-img" aria-label="Reviving Retro PCs">
           
       </aside>
       <article class="first-article">
@@ -81,7 +84,7 @@
       </article>
       <!-- <img class="second-article-img" src="assets/images/image-top-laptops.jpg" alt="laptop image"> -->
 
-      <aside class="second-article-img">
+      <aside class="second-article-img" aria-label="laptops">
           
       </aside>
       <article class="second-article">
@@ -91,7 +94,7 @@
       </article>
       <!-- <img class="third-article-img" src="assets/images/image-gaming-growth.jpg" alt="gaming image"> -->
 
-      <aside class="third-article-img">
+      <aside class="third-article-img" aria-label="gaming image">
           
       </aside>
       <article class="third-article">
@@ -101,14 +104,6 @@
       </article>
     </section>
   </main>
-  <!-- <div class="attribution">
-    <p>
-      Challenge by 
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by 
-      <a href="#">Denise Rizzi</a>.
-    </p>
-  </div> -->
   <script src="script.js"></script>
 </body>
 </html>
